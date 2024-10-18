@@ -1,9 +1,9 @@
 
-print('Kalkulator Persamaan Kuadrat ax+bx+c')
+print('Quadratic Equation Calculator ax²+bx+c')
 
-val_a = int(input("Masukan nilai a: "))
-val_b = int(input("Masukan nilai b: "))
-val_c = int(input("Masukan nilai c: "))
+val_a = int(input("Insert a value: "))
+val_b = int(input("Insert b value: "))
+val_c = int(input("Insert c value: "))
 
 dscrmnt = (val_b**2) - (4 * val_a * val_c)
 sqrt_discri = dscrmnt**0.5
