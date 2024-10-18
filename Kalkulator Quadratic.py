@@ -13,8 +13,13 @@ print("Discriminant:", dscrmnt)
 X1 = (-val_b + sqrt_discri) / (2 * val_a)
 X2 = (-val_b - sqrt_discri) / (2 * val_a)
  
-print(" X1 val =", X1)
-print(" X2 val =", X2)
+resultX1 = str(X1)
+resultX2 = str(X2)
+resultX_1 = resultX1[0:4]
+resultX_2 = resultX2[0:4]
+
+print(" X1 val =", resultX_1)
+print(" X2 val =", resultX_2)
 
 #-b+- sqrt(-b^2 - 4ac)/2a
 
